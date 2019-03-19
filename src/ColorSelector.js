@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Matrix from './Matrix.js'
+
 export default class ColorSelector extends Component {
 
   makeColorSwatches = () => (
