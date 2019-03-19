@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class ColorSelector extends Component {
 
   chosenColor = () => (
-
+    this.props.chosenColor(str)
   )
 
   makeColorSwatches = () => (
